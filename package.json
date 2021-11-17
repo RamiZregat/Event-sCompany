@@ -1,0 +1,29 @@
+{
+  "name": "caps-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hub.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node hub.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamiZregat/caps-socket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamiZregat/caps-socket/issues"
+  },
+  "homepage": "https://github.com/RamiZregat/caps-socket#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
+    "jest": "^27.3.1",
+    "socket.io": "^4.3.2",
+    "socket.io-client": "^4.3.2",
+    "uuid": "^8.3.2"
+  }
+}
